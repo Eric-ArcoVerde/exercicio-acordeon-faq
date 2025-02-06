@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    /* align-content: center; */
+    background-color: lightgrey;
+}
+
+.painel {
+    display: flex;
+    background-color: white;
+    width: 655px;
+    height: 350px;
+    padding: 35px 0px 20px 0px;
+    border-radius: 20px;
+    /* position: absolute; */
+    /* top: 50%; */
+}
+
+.img-pessoa{
+    margin-right: 40px;
+    width: 278px;
+    height: 293px;
+    transform: translateX(-90px);
+}
+
+.img-seta-cinza, .img-seta-laranja{
+    width: 15px;
+    height: 9px;
+}
+
+.textos{
+    align-content: center;
+    background-color: lightgreen;
+    width: 3000px;
+    transform: translateX(-90px);
+}
+
+.linha-pergunta {
+    display: flex;
+    font-weight: 500;
+    font-size: 17px;
+    background-color: lightcoral;
+}
+
+.box-pergunta{
+    margin-bottom: 15px;
+}
+
+.titulo{
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.resposta{
+    font-weight: 300;
+    font-size: 15px;
+}
