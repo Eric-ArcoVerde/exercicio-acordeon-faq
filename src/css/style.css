@@ -2,8 +2,10 @@ body{
     display: flex;
     position: relative;
     justify-content: center;
-    /* align-content: center; */
+    align-items: center;
     background-color: lightgrey;
+    height: 100vh;
+    width: 100vw;
 }
 
 .painel {
@@ -13,27 +15,41 @@ body{
     height: 350px;
     padding: 35px 0px 20px 0px;
     border-radius: 20px;
+    position: static;
     /* position: absolute; */
     /* top: 50%; */
 }
 
 .img-pessoa{
-    margin-right: 40px;
+    position: absolute;
     width: 278px;
     height: 293px;
     transform: translateX(-90px);
 }
 
-.img-seta-cinza, .img-seta-laranja{
-    width: 15px;
-    height: 9px;
+.seta{
+    /* width: 30px; */
+    /* height: 30px; */
+    background-color: black;
+    transform: translateY(-25%);
+    margin-right: 10px;
+}
+
+.seta-cinza{
+    color: rgb(166, 166, 166);
+    color: white;
+}
+
+.seta-laranja{
+    color: rgb(241, 70, 36);
 }
 
 .textos{
     align-content: center;
     background-color: lightgreen;
-    width: 3000px;
-    transform: translateX(-90px);
+    width: 100%;
+    margin-left: 225px;
+    margin-right: 35px;
 }
 
 .linha-pergunta {
@@ -41,6 +57,8 @@ body{
     font-weight: 500;
     font-size: 17px;
     background-color: lightcoral;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .box-pergunta{
