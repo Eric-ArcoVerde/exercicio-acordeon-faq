@@ -16,8 +16,6 @@ body{
     padding: 35px 0px 20px 0px;
     border-radius: 20px;
     position: static;
-    /* position: absolute; */
-    /* top: 50%; */
 }
 
 .img-pessoa{
@@ -30,14 +28,12 @@ body{
 .seta{
     /* width: 30px; */
     /* height: 30px; */
-    background-color: black;
     transform: translateY(-25%);
     margin-right: 10px;
 }
 
 .seta-cinza{
     color: rgb(166, 166, 166);
-    color: white;
 }
 
 .seta-laranja{
@@ -45,28 +41,28 @@ body{
 }
 
 .textos{
-    align-content: center;
-    background-color: lightgreen;
-    width: 100%;
-    margin-left: 225px;
-    margin-right: 35px;
+    align-content: start;
+    width: 395px;
+    margin: 25px 35px 40px 225px;
 }
 
 .linha-pergunta {
     display: flex;
     font-weight: 500;
     font-size: 17px;
-    background-color: lightcoral;
     justify-content: space-between;
     align-items: center;
 }
 
 .box-pergunta{
-    margin-bottom: 15px;
+    padding: 15px 0px;
+}
+
+.borda-divisao{
+    border-bottom: 1px solid lightgray;
 }
 
 .titulo{
-    margin-bottom: 15px;
     font-weight: 700;
     font-size: 25px;
 }
@@ -74,4 +70,10 @@ body{
 .resposta{
     font-weight: 300;
     font-size: 15px;
+}
+
+.nao-exibir{
+    position: absolute;
+    background-color: aqua;
+    opacity: 0;
 }
